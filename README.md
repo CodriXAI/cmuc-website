@@ -2,7 +2,7 @@
 
 Sitio web oficial del Colegio Mayor Universitario de Córdoba (CMUC), una institución educativa sin fines de lucro fundada en la década del 50 por el monseñor Eladio Bordagaray.
 
-🌐 **Sitio en vivo**: [https://colegiomayorcba.com](https://colegiomayorcba.com)
+🌐 **Sitio en vivo**: [https://colegiomayorcba.com.ar](https://colegiomayorcba.com.ar)
 
 ## 🏛️ Acerca del Proyecto
 

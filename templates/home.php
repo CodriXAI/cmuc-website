@@ -165,7 +165,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Nuestras redes!</h4>
                         <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.facebook.com/colegiomayorcba/"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.instagram.com/colegiomayorcba/"><i class="fab fa-fw fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.instagram.com/cmuc.cordoba/"><i class="fab fa-fw fa-instagram"></i></a>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
@@ -186,7 +186,7 @@
                 <span class="btn-label">Consultar</span>
             </button>
             <a id="contactWhatsAppBtn"
-                href="https://wa.me/5493534795639?text=Hola%20quisiera%20hacer%20una%20consulta"
+                href="https://wa.me/5492657625780?text=Hola%20quisiera%20hacer%20una%20consulta"
                 target="_blank" rel="noopener"
                 aria-label="WhatsApp" title="WhatsApp">
                 <span class="icon"><i class="fab fa-whatsapp"></i></span>
@@ -218,7 +218,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center">
-            <div class="container"><small>Copyright © Departemento de Redes 2025</small></div>
+            <div class="container"><small>Copyright © Departemento de Redes 2026</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">

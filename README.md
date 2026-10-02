@@ -101,7 +101,6 @@ Para despliegue en producción, considera usar:
 cmuc-website/
 ├── index.php              # Página principal
 ├── requirements.txt       # Dependencias de PHP
-├── .env.example          # Variables de entorno de ejemplo
 ├── .gitignore            # Archivos ignorados por Git
 ├── static/               # Archivos estáticos
 │   ├── css/             # Estilos CSS
@@ -113,30 +112,11 @@ cmuc-website/
     └── index.html       # Página principal
 ```
 
-## 🔧 Configuración de Variables de Entorno
-
-Crea un archivo `.env` con:
-
-```env
-# Configuración de Email
-EMAIL_USER=tu_email@gmail.com
-EMAIL_PASSWORD=tu_app_password_de_gmail
-EMAIL_RECIPIENT=colegiomayorcba@gmail.com
-
-# Configuración de Ngrok (opcional)
-NGROK_TOKEN=tu_token_de_ngrok
-
-# Configuración PHP
-PHP_ENV=development
-PHP_DISPLAY_ERRORS=1
-```
-
 ## 📧 Configuración del Formulario de Contacto
 
 El formulario incluye validación para:
 - Nombre (requerido)
 - Email (requerido, formato válido)
-- Teléfono (requerido)
 - Mensaje (requerido)
 
 Los mensajes se envían automáticamente al email configurado.
@@ -157,7 +137,7 @@ Reemplaza las imágenes en `/static/img/cmuc/` con:
 - Resolución apropiada para responsive design
 
 ### Contenido
-Modifica `/templates/index.html` para actualizar:
+Modifica `/templates/home.php` para actualizar:
 - Textos institucionales
 - Enlaces a documentos
 - Información de contacto
@@ -178,8 +158,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 **Colegio Mayor Universitario de Córdoba**
 - Email: colegiomayorcba@gmail.com
-- Facebook: [@cmuccba](https://www.facebook.com/cmuccba)
-- Instagram: [@colegiomayorcba](https://www.instagram.com/colegiomayorcba/)
+- Facebook: [@colegiomayorcba](https://www.facebook.com/colegiomayorcba/)
+- Instagram: [@cmuc.cordoba](https://www.instagram.com/cmuc.cordoba/)
 - Ubicación: Láprida 30/37, Nueva Córdoba, Córdoba
 
 ## 🙏 Reconocimientos

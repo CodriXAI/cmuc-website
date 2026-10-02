@@ -12,7 +12,9 @@ if ($method !== 'POST') {
 }
 
 // Cargar config
-$configPath = __DIR__ . '/config.php';
+// /../../../../config.php Pues el config.php de Ferozo estará un nivel arriba en public_HTML
+// por motivos de seguridad de las credenciales.
+$configPath = __DIR__ . '/../../../../config.php';
 if (!file_exists($configPath)) {
     http_response_code(500);
     echo json_encode(['success' => false, 'error' => 'Falta config.php']);
